@@ -38,7 +38,6 @@ namespace Twitch_Reigns
             graphics.PreferredBackBufferWidth = monitorWidth;
             graphics.PreferredBackBufferHeight = monitorHeight;
             Window.Position = new Microsoft.Xna.Framework.Point(0, 0);
-            Window.IsBorderless = true;
             IsMouseVisible = true;
         }
         protected override void Initialize()

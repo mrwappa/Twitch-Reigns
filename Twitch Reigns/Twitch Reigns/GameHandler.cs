@@ -221,10 +221,10 @@ namespace Twitch_Reigns
         }
         public void Update()
         {
-            CheckStateGameOver();
+            /*CheckStateGameOver();
             ListenChat();
             ChooseAction();
-            GameOver();
+            GameOver();*/
         }
 
         public void Draw()

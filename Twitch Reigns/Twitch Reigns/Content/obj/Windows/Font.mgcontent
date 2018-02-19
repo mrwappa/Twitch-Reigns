@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Erik Wapner/Documents/Projects/C#/Twitch Reigns/Twitch Reigns/Content/Font.spritefont</SourceFile>
+  <SourceFile>C:/Users/Erik Wapner/Documents/GitHub/Twitch-Reigns/Twitch Reigns/Twitch Reigns/Content/Font.spritefont</SourceFile>
   <SourceTime>2018-02-19T17:28:51.2794393+01:00</SourceTime>
-  <DestFile>C:/Users/Erik Wapner/Documents/Projects/C#/Twitch Reigns/Twitch Reigns/Content/bin/Windows/Font.xnb</DestFile>
-  <DestTime>2018-02-19T17:28:52.2936359+01:00</DestTime>
+  <DestFile>C:/Users/Erik Wapner/Documents/GitHub/Twitch-Reigns/Twitch Reigns/Twitch Reigns/Content/bin/Windows/Font.xnb</DestFile>
+  <DestTime>2018-02-19T21:05:24.2368701+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

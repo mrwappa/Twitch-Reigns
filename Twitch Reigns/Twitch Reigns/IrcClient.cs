@@ -67,6 +67,33 @@ namespace Twitch_Reigns
             }
 
         }
+
+        public async void ReConnect()
+        {
+            try
+            {
+                await tcpClient.ConnectAsync(ipAddress, adressPort);
+
+                if (tcpClient.Connected)
+                {
+                    inputStream = new StreamReader(tcpClient.GetStream());
+                    outputsStream = new StreamWriter(tcpClient.GetStream());
+                    outputsStream.WriteLine("PASS " + auth_password);
+                    outputsStream.WriteLine("NICK " + userName);
+                    outputsStream.WriteLine("USER " + userName + " 8 * :" + userName);
+                    outputsStream.WriteLine("CAP REQ :twitch.tv/membership");
+                    outputsStream.WriteLine("CAP REQ :twtich.tv/commands");
+                    outputsStream.Flush();
+                    ReadChat();
+                }
+            }
+            catch
+            {
+                return;
+            }
+            
+        }
+
         string msg = null;
         public async void ReadChat()
         {
@@ -82,18 +109,25 @@ namespace Twitch_Reigns
             {
                 return;
             }
-            if (msg.Contains("!help"))
+            if(msg != null)
             {
-                SendChatMessage("Type !left or !right to vote on an action");
-            }
-            if (GameHandler.CurrentState == Convert.ToInt32(GameHandler.GameState.ListenChat))
-            {
-                if (msg.Contains("!left") || msg.Contains("!right"))
+                if (msg.Contains("!help"))
                 {
-                    Actions.Add(msg);
+                    SendChatMessage("Type !left or !right to vote on an action");
                 }
+                if (GameHandler.CurrentState == Convert.ToInt32(GameHandler.GameState.ListenChat))
+                {
+                    if (msg.Contains("!left") || msg.Contains("!right"))
+                    {
+                        Actions.Add(msg);
+                    }
+                }
+
             }
-            
+            if(!tcpClient.Connected)
+            {
+                ReConnect();
+            }
             ReadChat();
         }
 

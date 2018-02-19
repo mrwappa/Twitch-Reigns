@@ -23,3 +23,28 @@ C:\Users\Erik Wapner\Documents\Projects\C#\Twitch Reigns\Twitch Reigns\obj\x86\D
 C:\Users\Erik Wapner\Documents\Projects\C#\Twitch Reigns\Twitch Reigns\obj\x86\Debug\Twitch Reigns.exe
 C:\Users\Erik Wapner\Documents\Projects\C#\Twitch Reigns\Twitch Reigns\obj\x86\Debug\Twitch Reigns.pdb
 C:\Users\Erik Wapner\Documents\Projects\C#\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\Content\Font.xnb
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\Content\Font.xnb
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\Twitch Reigns.exe
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\Twitch Reigns.pdb
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\obj\x86\Debug\Twitch Reigns.csprojResolveAssemblyReference.cache
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\obj\x86\Debug\Twitch Reigns.csproj.CoreCompileInputs.cache
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\obj\x86\Debug\Twitch Reigns.exe
+C:\Users\Erik Wapner\Documents\GitHub\Twitch-Reigns\Twitch Reigns\Twitch Reigns\obj\x86\Debug\Twitch Reigns.pdb
