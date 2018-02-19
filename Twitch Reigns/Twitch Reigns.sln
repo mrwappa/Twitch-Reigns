@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitch Reigns", "Twitch Reigns\Twitch Reigns.csproj", "{36D94CDD-81CD-402A-9216-415D8AC58BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D94CDD-81CD-402A-9216-415D8AC58BBF}.Debug|x86.ActiveCfg = Debug|x86
+		{36D94CDD-81CD-402A-9216-415D8AC58BBF}.Debug|x86.Build.0 = Debug|x86
+		{36D94CDD-81CD-402A-9216-415D8AC58BBF}.Release|x86.ActiveCfg = Release|x86
+		{36D94CDD-81CD-402A-9216-415D8AC58BBF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51C9349C-7698-413A-A0A4-7A856CBF1EC2}
+	EndGlobalSection
+EndGlobal
