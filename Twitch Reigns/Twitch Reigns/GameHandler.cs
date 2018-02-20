@@ -223,13 +223,13 @@ namespace Twitch_Reigns
         public void Update()
         {
             ReconnectTimer += 1f / 60f;
-            if(ReconnectTimer >= 60f)
+            if(ReconnectTimer >= 3)
             {
                 ReconnectTimer = 0;
                 Bot.ReConnect();
             }
 
-            /*CheckStateGameOver();
+           /* CheckStateGameOver();
             ListenChat();
             ChooseAction();
             GameOver();*/

@@ -83,6 +83,8 @@ namespace Twitch_Reigns
                     outputsStream.WriteLine("USER " + userName + " 8 * :" + userName);
                     outputsStream.WriteLine("CAP REQ :twitch.tv/membership");
                     outputsStream.WriteLine("CAP REQ :twtich.tv/commands");
+                    JoinRoom("mrwappa");
+                    SendChatMessage("Reconnected!");
                     outputsStream.Flush();
                     ReadChat();
                 }
@@ -97,9 +99,6 @@ namespace Twitch_Reigns
         string msg = null;
         public async void ReadChat()
         {
-            /*byte[] buffer = new byte[1024];
-
-            int n = 0;*/
 
             try
             {
