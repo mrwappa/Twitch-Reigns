@@ -83,9 +83,9 @@ namespace Twitch_Reigns
                     outputsStream.WriteLine("USER " + userName + " 8 * :" + userName);
                     outputsStream.WriteLine("CAP REQ :twitch.tv/membership");
                     outputsStream.WriteLine("CAP REQ :twtich.tv/commands");
-                    JoinRoom("mrwappa");
                     SendChatMessage("Reconnected!");
                     outputsStream.Flush();
+                    JoinRoom("mrwappa");
                     ReadChat();
                 }
             }
@@ -110,6 +110,11 @@ namespace Twitch_Reigns
             }
             if(msg != null)
             {
+                if (msg == "PING :tmi.twitch.tv")
+                {
+                    //SendChatMessage("PONG :tmi.twitch.tv");
+                    SendIrcMessage(":" + userName + "!" + userName + "@" + userName + ".tmi.twitch.tv PRIVMSG #" + " :" + "PONG :tmi.twitch.tv");
+                }
                 if (msg.Contains("!help"))
                 {
                     SendChatMessage("Type !left or !right to vote on an action");
@@ -123,7 +128,7 @@ namespace Twitch_Reigns
                 }
 
             }
-            if(!tcpClient.Connected)
+            if (!tcpClient.Connected)
             {
                 ReConnect();
             }
