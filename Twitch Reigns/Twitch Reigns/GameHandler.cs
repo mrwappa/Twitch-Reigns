@@ -39,6 +39,7 @@ namespace Twitch_Reigns
 
         public Random Random;
 
+        float ReconnectTimer;
 
         int left;
         int right;
@@ -221,6 +222,13 @@ namespace Twitch_Reigns
         }
         public void Update()
         {
+            ReconnectTimer += 1f / 60f;
+            if(ReconnectTimer >= 60f)
+            {
+                ReconnectTimer = 0;
+                Bot.ReConnect();
+            }
+
             /*CheckStateGameOver();
             ListenChat();
             ChooseAction();
