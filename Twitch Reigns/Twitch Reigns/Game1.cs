@@ -49,7 +49,8 @@ namespace Twitch_Reigns
 
 
             // TODO: Add your initialization logic here
-            irc = new IrcClient("52.34.236.73", 6667, "ThotRobot", "oauth:n77ifmuwe3ylhv1qh34nejmik7ncfr");
+            //irc = new IrcClient("52.34.236.73", 6667, "ThotRobot", "oauth:n77ifmuwe3ylhv1qh34nejmik7ncfr");
+            irc = new IrcClient("52.34.236.73", 6667, "ThotRobot", "oauth:vu3d7hk8wao4ojlnkwlmqrsv2hlfxr");
             font = Content.Load<SpriteFont>("Font");
 
             gameHandler = new GameHandler();
